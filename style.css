@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    background-color: white;
+    max-width: 550px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #23476b;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.gender {
+    margin-top: 8px;
+}
+
+.gender input {
+    margin-left: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    background-color: #23476b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #356b9e;
+}
+
+#result {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #f5f8fc;
+    border-radius: 7px;
+}
+
+#result p {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
